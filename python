@@ -1,0 +1,4 @@
+get pandas series from csv
+import pandas as pd
+path = '~/Data/my_csv.csv'
+s = pd.read_csv(path , header=None, names=['data_name',], squeeze=True)
